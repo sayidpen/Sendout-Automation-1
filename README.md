@@ -1,4 +1,4 @@
-__ # Sendout.AI Automation Script - 1 __
+ __# Sendout.AI Automation Script - 1__
 ### TEST CASES LINK : https://docs.google.com/spreadsheets/d/1lw2MLGKJddQm5RFVwIjwO0vIpnEyhf_wHknEcTbyUVg/edit?pli=1&gid=0#gid=0
 
 Sendout.AI login page basic testing script based on the manual testing script.
