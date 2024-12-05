@@ -31,7 +31,7 @@ export class LoginPageElements {
 
     //  Button_Should_Exist
     Button_Should_Exist(Locator){
-        cy.get(Locator).should('.exist')
+        cy.get(Locator).should('exist')
     }
 
     // No_Error_Message
@@ -41,10 +41,19 @@ export class LoginPageElements {
 
     // Error_Message_Exist
    Error_Message_Exist(Locator){
-    cy.get(Locator).should('.exist')
+    cy.get(Locator).should('exist')
    }
    Enter_key_From_Keyboard(Locator,Key){
     cy.get(Locator).type(Key)
    }
+
+   Check_Element_Exist(Locator){
+    cy.get(Locator).should("exist")
+   }
+   
+   Check_Element_Not_Exist(Locator){
+    cy.get(Locator).should("not.exist")
+   }
+
     }
     
