@@ -3,7 +3,11 @@
 
 Sendout.AI login page basic testing script based on the manual testing script.
 
-Tests |
+| Tests  | Number |
+| ------------- | ------------- |
+| Passed  | 7  |
+| Failed  | 5  |
+| Total   | 12 |
 
 # HTML Report's Screenshot: 
 ![image](https://github.com/user-attachments/assets/8b833304-0691-4935-9968-4deacba204bd)
